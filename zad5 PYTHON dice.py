@@ -12,3 +12,71 @@ The chance of you getting 1 is 0%
 The chance of you getting 7 is 12%
 """
 
+import random
+
+"""
+diceOne = random.randint(1, 6)
+diceTwo = random.randint(1, 6)
+
+print(diceOne)
+print(diceTwo)
+
+# dicesTogether = diceOne + diceTwo
+# print(dicesTogether)
+
+result = [random.randint(1, 6) + random.randint(1, 6) for i in range(100)]
+
+print(result)
+
+count_of_two = result.count(2)
+print(count_of_two)
+
+count_of_three = result.count(3)
+print(count_of_three)
+
+count_of_four = result.count(4)
+print(count_of_four)
+
+count_of_five = result.count(5)
+print(count_of_five)
+
+count_of_six = result.count(6)
+print(count_of_six)
+
+count_of_seven = result.count(7)
+print(count_of_seven)
+
+count_of_eight = result.count(8)
+print(count_of_eight)
+
+count_of_nine = result.count(9)
+print(count_of_nine)
+
+count_of_ten = result.count(10)
+print(count_of_ten)
+
+count_of_eleven = result.count(11)
+print(count_of_eleven)
+
+count_of_twelve = result.count(12)
+print(count_of_twelve)
+
+choosenNumber = input("Choose a number from 2 to 12: ")
+
+if choosenNumber == "2":
+    print("The chance of getting 2 is: " + str(count_of_two) + "%")
+
+"""
+
+listOfProbabilities = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+for i in range(100):
+    number = random.randint(1, 6) + random.randint(1, 6)
+    listOfProbabilities[number-2] = listOfProbabilities[number-2] + 1
+
+choosenNumber = input("Choose a number from 2 to 12: ")
+
+print(listOfProbabilities)
+print("you chose " + choosenNumber + ". It's probability is " + str(listOfProbabilities[int(choosenNumber)-2]) + "/100")
+
+
+
