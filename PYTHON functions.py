@@ -20,18 +20,6 @@ print("Quotient:", result[0])  # Output: Quotient: 6
 print("Remainder:", result[1])  # Output: Remainder: 2
 
 
-# Function Returning Multiple Values (Unpacking):
-
-def divide_and_remainder(dividend, divisor):
-    quotient = dividend // divisor
-    remainder = dividend % divisor
-    return quotient, remainder
-
-quotient, remainder = divide_and_remainder(20, 3)
-print("Quotient:", quotient)  # Output: Quotient: 6
-print("Remainder:", remainder)  # Output: Remainder: 2
-
-
 # Function Returning Conditional Result:
 
 def is_even(number):

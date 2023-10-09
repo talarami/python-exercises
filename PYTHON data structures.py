@@ -6,6 +6,10 @@
 # Creating a list
 my_list = [1, 2, 3, 4, 5]
 
+# List length:
+
+print(len(my_list))
+
 # Accessing elements
 first_element = my_list[0]
 
@@ -110,11 +114,6 @@ sentence = " ".join(words)
 
 text = "Hello, World!" # replace text
 replaced_text = text.replace("World", "Python")
-
-
-
-
-
 
 # Example
 my_string = "Hello, World!"
