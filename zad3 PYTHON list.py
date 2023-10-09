@@ -12,3 +12,10 @@ students = ["Chloe", "Anna", "Lauren", "Shreya", "Siobhan"]
 print(sorted(students))
 
 print(sorted(students)[0])
+
+# Getting elements from list from the back:
+
+elementList1 = ["Jan", "Tomek", "Beata", "Alicja"]
+
+elementList1.reverse()
+print(elementList1)
